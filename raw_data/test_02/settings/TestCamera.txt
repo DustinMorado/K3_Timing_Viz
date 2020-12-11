@@ -1,0 +1,38 @@
+MacroName TestCamera
+exp1 = { ( 1.0 / 75.0 ) ( 2.0 / 75.0 ) ( 3.0 / 75.0 ) ( 4.0 / 75.0 ) ( 5.0 / 75.0 ) ( 6.0 / 75.0 ) ( 7.0 / 75.0 ) ( 8.0 / 75.0 ) ( 9.0 / 75.0 ) ( 10.0 / 75.0 ) }
+exp2 = { ( 11.0 / 75.0 ) ( 12.0 / 75.0 ) ( 13.0 / 75.0 ) ( 14.0 / 75.0 ) ( 15.0 / 75.0 ) ( 16.0 / 75.0 ) ( 17.0 / 75.0 ) ( 18.0 / 75.0 ) ( 19.0 / 75.0 ) ( 20.0 / 75.0 ) }
+exp3 = { ( 21.0 / 75.0 ) ( 22.0 / 75.0 ) ( 23.0 / 75.0 ) ( 24.0 / 75.0 ) ( 25.0 / 75.0 ) ( 26.0 / 75.0 ) ( 27.0 / 75.0 ) ( 28.0 / 75.0 ) ( 29.0 / 75.0 ) ( 30.0 / 75.0 ) }
+exp4 = { ( 31.0 / 75.0 ) ( 32.0 / 75.0 ) ( 33.0 / 75.0 ) ( 34.0 / 75.0 ) ( 35.0 / 75.0 ) ( 36.0 / 75.0 ) ( 37.0 / 75.0 ) ( 38.0 / 75.0 ) ( 39.0 / 75.0 ) ( 40.0 / 75.0 ) }
+
+Loop 4 expTens
+   Loop 10 expOnes
+
+      idx = ( ( $expTens - 1 ) * 10 ) + ( $expOnes )
+      SaveLogOpenNew X:\DoseFractions\tif_count_normed\SerialEM_$idx.log
+
+      If $expTens == 1
+         eTime = $exp1[$expOnes]
+      EndIf
+
+      If $expTens == 2
+         eTime = $exp2[$expOnes]
+      EndIf
+
+      If $expTens == 3
+         eTime = $exp3[$expOnes]
+      EndIf
+
+      If $expTens == 4
+         eTime = $exp4[$expOnes]
+      EndIf
+
+      Echo Setting Exposure Time To $eTime Seconds...
+      SetExposure R $eTime 0.0
+
+      Loop 10
+         Record
+      EndLoop
+
+      OKBox Save GMS Log Now Please
+   EndLoop
+EndLoop

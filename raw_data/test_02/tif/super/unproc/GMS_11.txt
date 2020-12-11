@@ -1,0 +1,480 @@
+1322.390 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1322.406 DMCamera Debug :  Return value = 1
+1322.453 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_101_01.34.07
+1322.468 DMCamera Debug :  Return value = 0
+1322.484 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1322.484 1322.484 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1322.484 
+DMCamera Debug :  Waiting for thread to end  0
+1322.484 DMCamera Debug :  Return value = 0
+1322.531 DMCamera Debug :  Returned from asynchronous start of acquire
+1323.015 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1323.031 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1323.203 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1323.218 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1323.328 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.48
+1323.421 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.58
+1323.515 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.66
+1323.593 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.75
+1323.718 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.87
+1323.734 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1323.812 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 0.96
+1323.906 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.05
+1324.031 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.18
+1324.156 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.30
+1324.468 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.62
+1324.546 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1324.812 DMCamera Debug :  Process total 0.553   save 0.618   get frame  0.415   align 0.000 sec
+1324.828 DMCamera Debug :     retSum 0.149  prImRF 0.131  frmSum 0.000  mmm 0.002  pack 0.000  final 0.271
+1324.859 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1324.890 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1324.921 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1325.671 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1325.703 DMCamera Debug :  Return value = 1
+1325.703 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_102_01.34.10
+1325.718 DMCamera Debug :  Return value = 0
+1325.734 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1325.734 1325.734 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1325.781 
+DMCamera Debug :  Waiting for thread to end  0
+1325.781 DMCamera Debug :  Return value = 0
+1325.828 DMCamera Debug :  Returned from asynchronous start of acquire
+1326.296 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1326.343 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1326.515 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1326.531 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1326.656 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.52
+1326.750 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.61
+1326.843 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.70
+1326.921 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.79
+1327.015 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.88
+1327.031 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1327.125 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 0.99
+1327.203 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.07
+1327.296 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.16
+1327.390 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.25
+1327.703 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.56
+1327.781 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1328.062 DMCamera Debug :  Process total 0.568   save 0.631   get frame  0.349   align 0.000 sec
+1328.062 DMCamera Debug :     retSum 0.148  prImRF 0.127  frmSum 0.000  mmm 0.002  pack 0.000  final 0.291
+1328.109 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1328.140 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1328.156 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1329.062 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1329.078 DMCamera Debug :  Return value = 1
+1329.078 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_103_01.34.14
+1329.093 DMCamera Debug :  Return value = 0
+1329.140 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1329.156 1329.156 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1329.156 
+DMCamera Debug :  Waiting for thread to end  0
+1329.156 DMCamera Debug :  Return value = 0
+1329.187 DMCamera Debug :  Returned from asynchronous start of acquire
+1329.687 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1329.703 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1329.875 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1329.921 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1330.062 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.54
+1330.156 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.63
+1330.281 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.75
+1330.375 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.84
+1330.468 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.93
+1330.500 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1330.625 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.09
+1330.703 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.17
+1330.796 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.26
+1330.906 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.36
+1331.218 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.67
+1331.281 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1331.562 DMCamera Debug :  Process total 0.553   save 0.620   get frame  0.408   align 0.000 sec
+1331.562 DMCamera Debug :     retSum 0.150  prImRF 0.131  frmSum 0.000  mmm 0.002  pack 0.000  final 0.270
+1331.609 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1331.640 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1331.687 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1332.468 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1332.484 DMCamera Debug :  Return value = 1
+1332.500 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_104_01.34.17
+1332.562 DMCamera Debug :  Return value = 0
+1332.578 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1332.593 1332.593 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1332.593 
+DMCamera Debug :  Waiting for thread to end  0
+1332.593 DMCamera Debug :  Return value = 0
+1332.625 DMCamera Debug :  Returned from asynchronous start of acquire
+1333.109 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1333.109 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1333.296 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1333.343 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1333.468 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.52
+1333.546 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.61
+1333.640 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.69
+1333.734 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.79
+1333.843 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.90
+1333.859 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1333.953 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.01
+1334.046 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.10
+1334.109 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.18
+1334.203 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.26
+1334.562 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.61
+1334.640 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1334.937 DMCamera Debug :  Process total 0.576   save 0.637   get frame  0.403   align 0.000 sec
+1334.953 DMCamera Debug :     retSum 0.150  prImRF 0.129  frmSum 0.000  mmm 0.002  pack 0.000  final 0.295
+1335.000 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1335.031 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1335.031 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1335.734 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1335.750 DMCamera Debug :  Return value = 1
+1335.765 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_105_01.34.20
+1335.765 DMCamera Debug :  Return value = 0
+1335.796 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1335.796 1335.796 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1335.796 
+DMCamera Debug :  Waiting for thread to end  0
+1335.796 DMCamera Debug :  Return value = 0
+1335.843 DMCamera Debug :  Returned from asynchronous start of acquire
+1336.312 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1336.328 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1336.515 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1336.546 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1336.687 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.54
+1336.781 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.63
+1336.859 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.71
+1336.953 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.80
+1337.031 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.89
+1337.062 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1337.171 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.02
+1337.250 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.11
+1337.343 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.20
+1337.437 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.29
+1337.750 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.60
+1337.843 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1338.109 DMCamera Debug :  Process total 0.579   save 0.612   get frame  0.367   align 0.000 sec
+1338.125 DMCamera Debug :     retSum 0.179  prImRF 0.129  frmSum 0.000  mmm 0.002  pack 0.000  final 0.270
+1338.171 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1338.265 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1338.265 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1339.000 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1339.015 DMCamera Debug :  Return value = 1
+1339.031 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_106_01.34.23
+1339.046 DMCamera Debug :  Return value = 0
+1339.062 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1339.093 1339.093 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1339.109 
+DMCamera Debug :  Waiting for thread to end  0
+1339.109 DMCamera Debug :  Return value = 0
+1339.140 DMCamera Debug :  Returned from asynchronous start of acquire
+1339.609 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1339.625 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1339.796 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1339.812 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1339.937 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.48
+1340.015 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.57
+1340.109 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.66
+1340.218 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.76
+1340.296 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.85
+1340.328 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1340.437 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 0.98
+1340.515 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.07
+1340.609 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.16
+1340.718 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.27
+1341.031 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.58
+1341.093 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1341.359 DMCamera Debug :  Process total 0.571   save 0.625   get frame  0.350   align 0.000 sec
+1341.390 DMCamera Debug :     retSum 0.173  prImRF 0.129  frmSum 0.000  mmm 0.002  pack 0.000  final 0.267
+1341.437 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1341.468 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1341.468 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1342.218 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1342.250 DMCamera Debug :  Return value = 1
+1342.250 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_107_01.34.27
+1342.265 DMCamera Debug :  Return value = 0
+1342.281 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1342.328 1342.328 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1342.328 
+DMCamera Debug :  Waiting for thread to end  0
+1342.328 DMCamera Debug :  Return value = 0
+1342.375 DMCamera Debug :  Returned from asynchronous start of acquire
+1342.843 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1342.890 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1343.078 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1343.093 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1343.203 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.52
+1343.312 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.62
+1343.375 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.70
+1343.468 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.79
+1343.562 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.88
+1343.609 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1343.671 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.01
+1343.796 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.12
+1343.921 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.25
+1344.015 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.34
+1344.343 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.66
+1344.421 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1344.687 DMCamera Debug :  Process total 0.548   save 0.608   get frame  0.461   align 0.000 sec
+1344.703 DMCamera Debug :     retSum 0.151  prImRF 0.125  frmSum 0.000  mmm 0.002  pack 0.000  final 0.270
+1344.750 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1344.828 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1344.828 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1345.781 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1345.796 DMCamera Debug :  Return value = 1
+1345.812 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_108_01.34.30
+1345.812 DMCamera Debug :  Return value = 0
+1345.843 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1345.843 1345.843 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1345.859 
+DMCamera Debug :  Waiting for thread to end  0
+1345.859 DMCamera Debug :  Return value = 0
+1345.906 DMCamera Debug :  Returned from asynchronous start of acquire
+1346.406 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1346.421 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1346.593 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1346.640 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1346.765 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.53
+1346.843 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.60
+1346.953 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.70
+1347.046 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.80
+1347.125 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.88
+1347.140 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1347.265 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.02
+1347.343 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.11
+1347.453 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.20
+1347.546 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.30
+1347.875 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.62
+1347.953 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1348.218 DMCamera Debug :  Process total 0.590   save 0.623   get frame  0.375   align 0.000 sec
+1348.218 DMCamera Debug :     retSum 0.186  prImRF 0.130  frmSum 0.000  mmm 0.002  pack 0.000  final 0.272
+1348.281 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1348.359 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1348.359 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1349.203 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1349.234 DMCamera Debug :  Return value = 1
+1349.234 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_109_01.34.34
+1349.281 DMCamera Debug :  Return value = 0
+1349.312 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1349.312 1349.312 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1349.312 
+DMCamera Debug :  Waiting for thread to end  0
+1349.328 DMCamera Debug :  Return value = 0
+1349.359 DMCamera Debug :  Returned from asynchronous start of acquire
+1349.828 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1349.828 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1350.015 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1350.046 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1350.156 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.50
+1350.250 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.59
+1350.375 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.71
+1350.453 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.80
+1350.625 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.96
+1350.640 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1350.718 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.06
+1350.828 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.17
+1350.906 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.25
+1351.000 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.34
+1351.343 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.68
+1351.453 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1351.718 DMCamera Debug :  Process total 0.545   save 0.630   get frame  0.425   align 0.000 sec
+1351.718 DMCamera Debug :     retSum 0.149  prImRF 0.128  frmSum 0.000  mmm 0.002  pack 0.000  final 0.266
+1351.765 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1351.843 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1351.843 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks
+1352.484 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+1352.515 DMCamera Debug :  Return value = 1
+1352.515 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 78.450004 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_super_unproc root SEMTest_110_01.34.37
+1352.531 DMCamera Debug :  Return value = 0
+1352.562 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x0  scaling 32.000000
+1352.562 1352.562 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+1352.562 
+DMCamera Debug :  Waiting for thread to end  0
+1352.578 DMCamera Debug :  Return value = 0
+1352.609 DMCamera Debug :  Returned from asynchronous start of acquire
+1353.125 DMCamera Debug :  Got frame 1 of 11   exp done 1  elapsed T 0.17
+1353.156 DMCamera Debug :  loop 0 stack 1 width 11520 height 8184  bs 1 int 1 uint 1
+1353.343 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 2 flag 0 len 0
+1353.359 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1353.484 DMCamera Debug :  Got frame 2 of 11   exp done 1  elapsed T 0.53
+1353.562 DMCamera Debug :  Got frame 3 of 11   exp done 1  elapsed T 0.62
+1353.671 DMCamera Debug :  Got frame 4 of 11   exp done 1  elapsed T 0.73
+1353.765 DMCamera Debug :  Got frame 5 of 11   exp done 1  elapsed T 0.81
+1353.859 DMCamera Debug :  Got frame 6 of 11   exp done 1  elapsed T 0.91
+1353.875 DMCamera Debug :  dose from DM 0.051   exp 0.013  bin 0.5
+1353.968 DMCamera Debug :  Got frame 7 of 11   exp done 1  elapsed T 1.02
+1354.062 DMCamera Debug :  Got frame 8 of 11   exp done 1  elapsed T 1.11
+1354.156 DMCamera Debug :  Got frame 9 of 11   exp done 1  elapsed T 1.21
+1354.265 DMCamera Debug :  Got frame 10 of 11   exp done 1  elapsed T 1.32
+1354.593 DMCamera Debug :  Got frame 11 of 11   exp done 1  elapsed T 1.64
+1354.703 DMCamera Debug :  Dividing signed integers by 2, scaling by 32.000000  offset 0.000000 -> 0.500000
+1354.968 DMCamera Debug :  Process total 0.544   save 0.674   get frame  0.392   align 0.000 sec
+1354.968 DMCamera Debug :     retSum 0.149  prImRF 0.126  frmSum 0.000  mmm 0.002  pack 0.000  final 0.266
+1355.015 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 94279680
+1355.093 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 11 w 11520 h 8184
+1355.093 DMCamera Debug :  retval = 0, err sending args 0, sending image 188559360 in 6 chunks

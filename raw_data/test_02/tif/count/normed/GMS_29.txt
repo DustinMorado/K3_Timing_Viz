@@ -1,0 +1,950 @@
+2372.000 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2372.015 DMCamera Debug :  Return value = 1
+2372.015 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_281_08.51.36
+2372.031 DMCamera Debug :  Return value = 0
+2372.046 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2372.093 2372.093 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2372.093 
+DMCamera Debug :  Waiting for thread to end  0
+2372.109 DMCamera Debug :  Return value = 0
+2372.140 DMCamera Debug :  Returned from asynchronous start of acquire
+2372.500 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2372.515 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2372.562 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2372.578 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2372.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2372.656 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.22
+2372.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2372.718 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.29
+2372.781 DMCamera Debug :  Dividing unsigned bytes by 2
+2372.828 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.40
+2372.843 DMCamera Debug :  Dividing unsigned bytes by 2
+2372.890 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.46
+2372.921 DMCamera Debug :  Dividing unsigned bytes by 2
+2372.953 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.53
+2372.984 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.031 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.59
+2373.046 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.093 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.66
+2373.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.156 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.73
+2373.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.250 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.82
+2373.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.328 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.89
+2373.343 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.390 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 0.96
+2373.406 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.453 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.03
+2373.500 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.546 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.12
+2373.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.609 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.18
+2373.625 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2373.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.718 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.29
+2373.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.796 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.36
+2373.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.859 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.43
+2373.875 DMCamera Debug :  Dividing unsigned bytes by 2
+2373.921 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.50
+2373.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.031 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.59
+2374.046 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.093 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.66
+2374.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.187 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.76
+2374.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.265 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.82
+2374.312 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.343 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.91
+2374.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.437 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.01
+2374.453 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.500 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.08
+2374.515 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.562 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.14
+2374.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.640 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.21
+2374.656 DMCamera Debug :  Dividing unsigned bytes by 2
+2374.937 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.50
+2374.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2375.000 DMCamera Debug :  Dividing signed integers by 2
+2375.093 DMCamera Debug :  Process total 1.210   save 0.767   get frame  0.549   align 0.000 sec
+2375.109 DMCamera Debug :     retSum 0.506  prImRF 0.598  frmSum 0.000  mmm 0.003  pack 0.000  final 0.102
+2375.125 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2375.140 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2375.171 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2375.406 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2375.421 DMCamera Debug :  Return value = 1
+2375.421 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_282_08.51.40
+2375.437 DMCamera Debug :  Return value = 0
+2375.453 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2375.468 2375.468 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2375.515 
+DMCamera Debug :  Waiting for thread to end  0
+2375.515 DMCamera Debug :  Return value = 0
+2375.546 DMCamera Debug :  Returned from asynchronous start of acquire
+2375.921 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2375.921 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2375.968 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2376.015 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2376.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.203 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.35
+2376.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.281 DMCamera Debug :  Got frame 3 of 29   exp done 1  elapsed T 0.42
+2376.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.375 DMCamera Debug :  Got frame 4 of 29   exp done 1  elapsed T 0.52
+2376.390 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.437 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.59
+2376.468 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.515 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.66
+2376.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.578 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.73
+2376.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.640 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.79
+2376.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.718 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.86
+2376.734 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.812 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.97
+2376.843 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.890 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 1.03
+2376.906 DMCamera Debug :  Dividing unsigned bytes by 2
+2376.953 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.10
+2376.968 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.015 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.16
+2377.046 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.093 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.24
+2377.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.156 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.31
+2377.171 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2377.187 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.234 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.39
+2377.265 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.312 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.46
+2377.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.390 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.53
+2377.406 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.500 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.64
+2377.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.578 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.71
+2377.625 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.671 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.81
+2377.703 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.734 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.88
+2377.765 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.812 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.95
+2377.828 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.875 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 2.02
+2377.906 DMCamera Debug :  Dividing unsigned bytes by 2
+2377.953 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.09
+2377.968 DMCamera Debug :  Dividing unsigned bytes by 2
+2378.015 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.15
+2378.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2378.093 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.23
+2378.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2378.156 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.29
+2378.171 DMCamera Debug :  Dividing unsigned bytes by 2
+2378.453 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.58
+2378.484 DMCamera Debug :  Dividing unsigned bytes by 2
+2379.171 DMCamera Debug :  Dividing signed integers by 2
+2379.250 DMCamera Debug :  Process total 1.261   save 1.422   get frame  0.519   align 0.000 sec
+2379.265 DMCamera Debug :     retSum 0.558  prImRF 0.632  frmSum 0.000  mmm 0.003  pack 0.000  final 0.068
+2379.281 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2379.296 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2379.296 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2379.531 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2379.546 DMCamera Debug :  Return value = 1
+2379.562 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_283_08.51.44
+2379.562 DMCamera Debug :  Return value = 0
+2379.578 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2379.625 2379.625 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2379.625 
+DMCamera Debug :  Waiting for thread to end  0
+2379.625 DMCamera Debug :  Return value = 0
+2379.671 DMCamera Debug :  Returned from asynchronous start of acquire
+2380.031 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2380.031 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2380.078 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2380.125 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2380.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.203 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.24
+2380.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.265 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.31
+2380.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.343 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.38
+2380.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.406 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.44
+2380.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.515 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.55
+2380.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.578 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.61
+2380.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.671 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.71
+2380.703 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.750 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.78
+2380.796 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.828 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.87
+2380.859 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.906 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.94
+2380.921 DMCamera Debug :  Dividing unsigned bytes by 2
+2380.968 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.00
+2380.984 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.062 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.09
+2381.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.125 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.16
+2381.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.187 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.23
+2381.203 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2381.265 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.312 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.35
+2381.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.375 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.42
+2381.406 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.453 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.49
+2381.468 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.531 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.56
+2381.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.609 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.66
+2381.640 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.687 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.73
+2381.703 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.781 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.83
+2381.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.843 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.90
+2381.906 DMCamera Debug :  Dividing unsigned bytes by 2
+2381.937 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.99
+2381.968 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.062 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.10
+2382.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.125 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.17
+2382.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.187 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.23
+2382.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.250 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.30
+2382.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.546 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.59
+2382.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2382.656 DMCamera Debug :  Dividing signed integers by 2
+2382.718 DMCamera Debug :  Process total 1.283   save 0.769   get frame  0.519   align 0.000 sec
+2382.734 DMCamera Debug :     retSum 0.527  prImRF 0.691  frmSum 0.000  mmm 0.003  pack 0.000  final 0.063
+2382.750 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2382.781 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2382.781 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2383.078 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2383.109 DMCamera Debug :  Return value = 1
+2383.109 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_284_08.51.48
+2383.125 DMCamera Debug :  Return value = 0
+2383.125 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2383.140 2383.140 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2383.187 
+DMCamera Debug :  Waiting for thread to end  0
+2383.187 DMCamera Debug :  Return value = 0
+2383.234 DMCamera Debug :  Returned from asynchronous start of acquire
+2383.593 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2383.609 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2383.640 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2383.687 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2383.718 DMCamera Debug :  Dividing unsigned bytes by 2
+2383.765 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.24
+2383.796 DMCamera Debug :  Dividing unsigned bytes by 2
+2383.828 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.31
+2383.859 DMCamera Debug :  Dividing unsigned bytes by 2
+2383.906 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.37
+2383.921 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.015 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.48
+2384.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.078 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.55
+2384.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.187 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.65
+2384.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.250 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.72
+2384.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.312 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.79
+2384.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.421 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.90
+2384.437 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.500 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.96
+2384.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.578 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.05
+2384.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.687 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.16
+2384.718 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.750 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.23
+2384.765 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.859 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.33
+2384.875 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2384.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2384.937 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.40
+2384.968 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.000 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.47
+2385.015 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.062 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.54
+2385.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.140 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.61
+2385.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.203 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.68
+2385.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.312 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.78
+2385.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.375 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.85
+2385.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.468 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.94
+2385.484 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.578 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 2.05
+2385.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2385.968 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.44
+2386.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2386.140 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.61
+2386.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2386.203 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.67
+2386.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2386.312 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.78
+2386.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2386.609 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 3.07
+2386.656 DMCamera Debug :  Dividing unsigned bytes by 2
+2386.703 DMCamera Debug :  Dividing signed integers by 2
+2386.765 DMCamera Debug :  Process total 1.358   save 1.099   get frame  0.606   align 0.000 sec
+2386.765 DMCamera Debug :     retSum 0.477  prImRF 0.814  frmSum 0.000  mmm 0.003  pack 0.000  final 0.064
+2386.828 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2386.859 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2386.859 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2387.093 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2387.109 DMCamera Debug :  Return value = 1
+2387.125 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_285_08.51.52
+2387.140 DMCamera Debug :  Return value = 0
+2387.156 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2387.156 2387.156 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2387.156 
+DMCamera Debug :  Waiting for thread to end  0
+2387.171 DMCamera Debug :  Return value = 0
+2387.203 DMCamera Debug :  Returned from asynchronous start of acquire
+2387.562 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.07
+2387.578 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2387.640 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2387.640 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2387.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2387.734 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.22
+2387.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2387.812 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.32
+2387.843 DMCamera Debug :  Dividing unsigned bytes by 2
+2387.890 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.39
+2387.937 DMCamera Debug :  Dividing unsigned bytes by 2
+2387.984 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.48
+2388.015 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.062 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.55
+2388.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.125 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.63
+2388.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.203 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.69
+2388.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.281 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.77
+2388.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.343 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.84
+2388.375 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.406 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.91
+2388.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.468 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 0.97
+2388.500 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.546 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.04
+2388.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.609 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.11
+2388.640 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.687 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.17
+2388.687 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2388.703 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.750 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.25
+2388.781 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.828 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.31
+2388.843 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.890 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.38
+2388.906 DMCamera Debug :  Dividing unsigned bytes by 2
+2388.984 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.49
+2389.015 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.062 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.56
+2389.109 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.156 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.65
+2389.171 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.218 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.72
+2389.250 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.328 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.82
+2389.343 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.390 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.89
+2389.437 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.484 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 1.98
+2389.500 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.593 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.09
+2389.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.656 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.16
+2389.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2389.750 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.25
+2389.781 DMCamera Debug :  Dividing unsigned bytes by 2
+2390.062 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.55
+2390.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2390.156 DMCamera Debug :  Dividing signed integers by 2
+2390.218 DMCamera Debug :  Process total 1.289   save 0.781   get frame  0.501   align 0.000 sec
+2390.218 DMCamera Debug :     retSum 0.498  prImRF 0.724  frmSum 0.000  mmm 0.003  pack 0.000  final 0.064
+2390.234 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2390.312 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2390.312 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2390.562 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2390.562 DMCamera Debug :  Return value = 1
+2390.578 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_286_08.51.55
+2390.593 DMCamera Debug :  Return value = 0
+2390.640 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2390.656 DMCamera Debug :  Started thread, going into wait loop
+2390.656 DMCamera Debug :  Waiting for thread to end  0
+2390.671 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+
+2390.671 DMCamera Debug :  Return value = 0
+2390.703 DMCamera Debug :  Returned from asynchronous start of acquire
+2391.078 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.07
+2391.078 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2391.140 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2391.187 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2391.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.265 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.27
+2391.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.359 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.36
+2391.375 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.437 DMCamera Debug :  Got frame 4 of 29   exp done 1  elapsed T 0.43
+2391.484 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.531 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.53
+2391.546 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.593 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.59
+2391.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.656 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.66
+2391.687 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.734 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.73
+2391.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.843 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.84
+2391.859 DMCamera Debug :  Dividing unsigned bytes by 2
+2391.906 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.91
+2391.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.000 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 1.00
+2392.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.109 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.11
+2392.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.187 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.17
+2392.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.281 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.27
+2392.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.375 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.37
+2392.375 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2392.390 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.437 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.44
+2392.468 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.531 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.54
+2392.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.609 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.61
+2392.625 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.671 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.67
+2392.687 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.765 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.77
+2392.796 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.843 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.84
+2392.859 DMCamera Debug :  Dividing unsigned bytes by 2
+2392.937 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.94
+2392.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.000 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 2.01
+2393.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.078 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 2.08
+2393.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.140 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.15
+2393.171 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.218 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.22
+2393.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.281 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.28
+2393.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.343 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.35
+2393.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.640 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.64
+2393.687 DMCamera Debug :  Dividing unsigned bytes by 2
+2393.734 DMCamera Debug :  Dividing signed integers by 2
+2393.796 DMCamera Debug :  Process total 1.283   save 0.778   get frame  0.545   align 0.000 sec
+2393.796 DMCamera Debug :     retSum 0.480  prImRF 0.738  frmSum 0.000  mmm 0.003  pack 0.000  final 0.062
+2393.812 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2393.843 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2393.843 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2394.140 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2394.156 DMCamera Debug :  Return value = 1
+2394.203 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_287_08.51.59
+2394.218 DMCamera Debug :  Return value = 0
+2394.250 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2394.250 2394.250 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2394.250 
+DMCamera Debug :  Waiting for thread to end  0
+2394.265 DMCamera Debug :  Return value = 0
+2394.328 DMCamera Debug :  Returned from asynchronous start of acquire
+2394.687 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2394.718 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2394.765 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2394.781 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2394.796 DMCamera Debug :  Dividing unsigned bytes by 2
+2394.859 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.24
+2394.875 DMCamera Debug :  Dividing unsigned bytes by 2
+2394.921 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.30
+2394.937 DMCamera Debug :  Dividing unsigned bytes by 2
+2394.984 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.37
+2395.015 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.062 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.44
+2395.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.125 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.51
+2395.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.187 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.57
+2395.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.250 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.64
+2395.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.328 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.70
+2395.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.406 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.77
+2395.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.500 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.87
+2395.515 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.562 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 0.93
+2395.578 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.656 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.03
+2395.687 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.734 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.10
+2395.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.796 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.16
+2395.796 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2395.828 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.875 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.24
+2395.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2395.968 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.33
+2395.984 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.062 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.43
+2396.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.125 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.50
+2396.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.187 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.56
+2396.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.265 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.64
+2396.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.328 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.70
+2396.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.406 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.77
+2396.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.468 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.84
+2396.484 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.531 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 1.91
+2396.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.609 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 1.98
+2396.625 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.718 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.08
+2396.734 DMCamera Debug :  Dividing unsigned bytes by 2
+2396.781 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.15
+2396.796 DMCamera Debug :  Dividing unsigned bytes by 2
+2397.078 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.44
+2397.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2397.140 DMCamera Debug :  Dividing signed integers by 2
+2397.203 DMCamera Debug :  Process total 1.182   save 0.773   get frame  0.427   align 0.000 sec
+2397.203 DMCamera Debug :     retSum 0.478  prImRF 0.637  frmSum 0.000  mmm 0.003  pack 0.000  final 0.064
+2397.218 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2397.250 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2397.250 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2397.500 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2397.531 DMCamera Debug :  Return value = 1
+2397.531 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_288_08.52.02
+2397.546 DMCamera Debug :  Return value = 0
+2397.562 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2397.578 2397.578 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2397.578 
+DMCamera Debug :  Waiting for thread to end  0
+2397.578 DMCamera Debug :  Return value = 0
+2397.625 DMCamera Debug :  Returned from asynchronous start of acquire
+2397.984 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2397.984 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2398.031 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2398.046 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2398.062 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.125 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.21
+2398.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.203 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.28
+2398.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.296 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.39
+2398.328 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.375 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.45
+2398.390 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.484 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.56
+2398.500 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.546 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.63
+2398.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.640 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.73
+2398.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.718 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.80
+2398.765 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.812 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.89
+2398.828 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.875 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.96
+2398.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2398.937 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.02
+2398.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.046 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.13
+2399.062 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.093 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.20
+2399.125 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.203 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.30
+2399.218 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2399.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.281 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.38
+2399.312 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.359 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.45
+2399.375 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.421 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.52
+2399.437 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.484 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.58
+2399.515 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.546 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.65
+2399.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.625 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.72
+2399.640 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.687 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.79
+2399.718 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.765 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.86
+2399.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.875 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.97
+2399.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2399.937 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.03
+2399.968 DMCamera Debug :  Dividing unsigned bytes by 2
+2400.000 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.10
+2400.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2400.078 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.17
+2400.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2400.140 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.24
+2400.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2400.437 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.53
+2400.484 DMCamera Debug :  Dividing unsigned bytes by 2
+2400.531 DMCamera Debug :  Dividing signed integers by 2
+2400.593 DMCamera Debug :  Process total 1.247   save 0.769   get frame  0.543   align 0.000 sec
+2400.593 DMCamera Debug :     retSum 0.481  prImRF 0.700  frmSum 0.000  mmm 0.003  pack 0.000  final 0.063
+2400.625 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2400.640 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2400.640 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2400.906 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2400.937 DMCamera Debug :  Return value = 1
+2400.937 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_289_08.52.05
+2400.953 DMCamera Debug :  Return value = 0
+2401.031 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2401.078 2401.078 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2401.078 
+DMCamera Debug :  Waiting for thread to end  0
+2401.093 DMCamera Debug :  Return value = 0
+2401.109 DMCamera Debug :  Returned from asynchronous start of acquire
+2401.484 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2401.484 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2401.531 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2401.562 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2401.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2401.640 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.23
+2401.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2401.703 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.30
+2401.734 DMCamera Debug :  Dividing unsigned bytes by 2
+2401.781 DMCamera Debug :  Got frame 4 of 29   exp done 0  elapsed T 0.37
+2401.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2401.875 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.46
+2401.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2401.953 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.53
+2402.000 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.046 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.63
+2402.062 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.109 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.70
+2402.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.171 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.77
+2402.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.250 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.84
+2402.281 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.328 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.91
+2402.343 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.421 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.01
+2402.453 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.500 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.08
+2402.515 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.562 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.15
+2402.593 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.640 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.22
+2402.640 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2402.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.718 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.30
+2402.734 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.812 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.40
+2402.828 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.875 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.46
+2402.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2402.968 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.56
+2403.000 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.031 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.63
+2403.062 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.140 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.73
+2403.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.203 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.80
+2403.234 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.281 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.87
+2403.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.359 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.94
+2403.375 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.468 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.04
+2403.468 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.515 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.11
+2403.562 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.609 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.20
+2403.625 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.671 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.27
+2403.703 DMCamera Debug :  Dividing unsigned bytes by 2
+2403.984 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.57
+2404.000 DMCamera Debug :  Dividing unsigned bytes by 2
+2404.046 DMCamera Debug :  Dividing signed integers by 2
+2404.109 DMCamera Debug :  Process total 1.265   save 0.787   get frame  0.496   align 0.000 sec
+2404.125 DMCamera Debug :     retSum 0.482  prImRF 0.710  frmSum 0.000  mmm 0.003  pack 0.000  final 0.070
+2404.140 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2404.156 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2404.156 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
+2404.421 DMCamera executing script :
+
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+number inserted = CM_GetCameraInserted(camera)
+Exit(inserted)
+
+2404.453 DMCamera Debug :  Return value = 1
+2404.453 DMCamera Debug :
+SetupFileSaving called with flags 80008 rf 6 frf 6 TIFF fpi N pix 156.900007 ER N A2R N sum 65535 grab 0
+  copy NO 
+  dir X:\DoseFractions\tif_count_normed root SEMTest_290_08.52.09
+2404.468 DMCamera Debug :  Return value = 0
+2404.500 DMCamera Debug :  SetK2Parameters called with save Y  flags 0x20  scaling 1.000000
+2404.500 2404.500 DMCamera Debug :  DMCamera executing script :
+
+Started thread, going into wait loop
+Object manager = CM_GetCameraManager()
+Object cameraList = CM_GetCameras(manager)
+Object camera = ObjectAt(cameraList, 0)
+CM_SelectCamera(manager, camera)
+Exit(0)
+2404.515 
+DMCamera Debug :  Waiting for thread to end  0
+2404.562 DMCamera Debug :  Return value = 0
+2404.593 DMCamera Debug :  Returned from asynchronous start of acquire
+2404.953 DMCamera Debug :  Got frame 1 of 29   exp done 0  elapsed T 0.06
+2404.953 DMCamera Debug :  loop 0 stack 1 width 5760 height 4092  bs 1 int 1 uint 1
+2405.000 DMCamera Debug :  sf 1  srorcm 1 fl 0 pr 3 flag 0 len 0
+2405.015 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2405.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.140 DMCamera Debug :  Got frame 2 of 29   exp done 0  elapsed T 0.25
+2405.156 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.250 DMCamera Debug :  Got frame 3 of 29   exp done 0  elapsed T 0.36
+2405.265 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.312 DMCamera Debug :  Got frame 4 of 29   exp done 1  elapsed T 0.43
+2405.343 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.421 DMCamera Debug :  Got frame 5 of 29   exp done 1  elapsed T 0.54
+2405.437 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.484 DMCamera Debug :  Got frame 6 of 29   exp done 1  elapsed T 0.60
+2405.515 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.593 DMCamera Debug :  Got frame 7 of 29   exp done 1  elapsed T 0.71
+2405.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.656 DMCamera Debug :  Got frame 8 of 29   exp done 1  elapsed T 0.77
+2405.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.718 DMCamera Debug :  Got frame 9 of 29   exp done 1  elapsed T 0.84
+2405.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.796 DMCamera Debug :  Got frame 10 of 29   exp done 1  elapsed T 0.91
+2405.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.859 DMCamera Debug :  Got frame 11 of 29   exp done 1  elapsed T 0.97
+2405.875 DMCamera Debug :  Dividing unsigned bytes by 2
+2405.953 DMCamera Debug :  Got frame 12 of 29   exp done 1  elapsed T 1.07
+2405.984 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.062 DMCamera Debug :  Got frame 13 of 29   exp done 1  elapsed T 1.17
+2406.078 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.125 DMCamera Debug :  Got frame 14 of 29   exp done 1  elapsed T 1.24
+2406.140 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.187 DMCamera Debug :  Got frame 15 of 29   exp done 1  elapsed T 1.31
+2406.203 DMCamera Debug :  dose from DM 0.202   exp 0.013  bin 1.0
+2406.218 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.265 DMCamera Debug :  Got frame 16 of 29   exp done 1  elapsed T 1.39
+2406.296 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.343 DMCamera Debug :  Got frame 17 of 29   exp done 1  elapsed T 1.45
+2406.359 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.406 DMCamera Debug :  Got frame 18 of 29   exp done 1  elapsed T 1.52
+2406.421 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.515 DMCamera Debug :  Got frame 19 of 29   exp done 1  elapsed T 1.62
+2406.531 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.578 DMCamera Debug :  Got frame 20 of 29   exp done 1  elapsed T 1.69
+2406.609 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.656 DMCamera Debug :  Got frame 21 of 29   exp done 1  elapsed T 1.77
+2406.671 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.718 DMCamera Debug :  Got frame 22 of 29   exp done 1  elapsed T 1.83
+2406.750 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.796 DMCamera Debug :  Got frame 23 of 29   exp done 1  elapsed T 1.90
+2406.812 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.859 DMCamera Debug :  Got frame 24 of 29   exp done 1  elapsed T 1.97
+2406.890 DMCamera Debug :  Dividing unsigned bytes by 2
+2406.921 DMCamera Debug :  Got frame 25 of 29   exp done 1  elapsed T 2.04
+2406.953 DMCamera Debug :  Dividing unsigned bytes by 2
+2407.000 DMCamera Debug :  Got frame 26 of 29   exp done 1  elapsed T 2.10
+2407.031 DMCamera Debug :  Dividing unsigned bytes by 2
+2407.078 DMCamera Debug :  Got frame 27 of 29   exp done 1  elapsed T 2.19
+2407.093 DMCamera Debug :  Dividing unsigned bytes by 2
+2407.140 DMCamera Debug :  Got frame 28 of 29   exp done 1  elapsed T 2.26
+2407.203 DMCamera Debug :  Dividing unsigned bytes by 2
+2407.484 DMCamera Debug :  Got frame 29 of 29   exp done 1  elapsed T 2.59
+2407.500 DMCamera Debug :  Dividing unsigned bytes by 2
+2407.546 DMCamera Debug :  Dividing signed integers by 2
+2407.609 DMCamera Debug :  Process total 1.301   save 0.765   get frame  0.493   align 0.000 sec
+2407.609 DMCamera Debug :     retSum 0.527  prImRF 0.708  frmSum 0.000  mmm 0.003  pack 0.000  final 0.063
+2407.625 DMCamera Debug :  Leaving acquire thread with return value 0 arrSize 23569920
+2407.656 DMCamera Debug :  Back from thread, retval 0 errfs 0  #saved 29 w 5760 h 4092
+2407.656 DMCamera Debug :  retval = 0, err sending args 0, sending image 47139840 in 2 chunks
