@@ -21,7 +21,7 @@ tested it using:
 
 ## Usage
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DustinMorado/K3_Timing_Viz/master?urlpath=%2Fapps%2FK3_Timings.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DustinMorado/K3_Timing_Viz/main?urlpath=%2Fapps%2FK3_Timings.ipynb)
 
 Just click the badge above to run a Binder instance of the application or you
 can install and run it locally on your system:
@@ -31,7 +31,7 @@ can install and run it locally on your system:
 3. `conda env create -f environment.yml`
 4. `conda activate k3-timing-viz`
 5. `jupyter notebook --no-browser`
-6. Browse to `http://localhost:8888/apps/K3_Timings.py`
+6. Browse to `http://localhost:8888/apps/K3_Timings.ipynb`
 
 ## Licensing
 
